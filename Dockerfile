@@ -16,7 +16,8 @@ ENV LD_LIBRARY_PATH /opt/mono/lib:${LD_LIBRARY_PATH}
 
 ADD ./app .
 
-RUN EnableNuGetPackageRestore=true xbuild /property:Configuration=Release /property:OutDir=./ `find . -maxdepth 1 -iname "*.sln" | head -1`
+RUN EnableNuGetPackageRestore=true xbuild /property:Configuration=Release /property:OutDir=./ ./KatanaTest.sln
+# `find . -maxdepth 1 -iname "*.sln" | head -1`
 
 EXPOSE 5000
 
