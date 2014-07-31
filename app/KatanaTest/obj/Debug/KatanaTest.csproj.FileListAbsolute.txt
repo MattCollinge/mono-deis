@@ -1,0 +1,15 @@
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\bin\Debug\KatanaTest.exe.config
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\bin\Debug\KatanaTest.exe
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\bin\Debug\KatanaTest.pdb
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\bin\Debug\Microsoft.Owin.Diagnostics.dll
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\bin\Debug\Microsoft.Owin.dll
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\bin\Debug\Microsoft.Owin.Hosting.dll
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\bin\Debug\Owin.dll
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\bin\Debug\Microsoft.Owin.xml
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\bin\Debug\Microsoft.Owin.Diagnostics.xml
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\bin\Debug\Microsoft.Owin.Hosting.xml
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\obj\Debug\KatanaTest.csprojResolveAssemblyReference.cache
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\obj\Debug\KatanaTest.exe
+Z:\mcollinge\dev\scratch\PaaS\KatanaTest\KatanaTest\obj\Debug\KatanaTest.pdb
