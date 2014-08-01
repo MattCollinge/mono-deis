@@ -19,7 +19,7 @@ ADD ./app /owin
 
 WORKDIR /owin
 
-RUN EnableNuGetPackageRestore=true xbuild /property:Configuration=Release /property:OutDir=./ ./KatanaTest.sln
+RUN EnableNuGetPackageRestore=true xbuild /property:Configuration=Release /property:OutDir=./ /owin/KatanaTest.sln
 # `find . -maxdepth 1 -iname "*.sln" | head -1`
 
 EXPOSE 5000
