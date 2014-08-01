@@ -15,9 +15,9 @@ RUN apt-get -y -q install mono-devel
 
 RUN mozroots --import --sync --machine
 
-ADD ./app /owin
-
 WORKDIR /owin
+
+ADD ./app /owin
 
 RUN EnableNuGetPackageRestore=true xbuild /property:Configuration=Release /property:OutDir=./ /owin/KatanaTest.sln
 # `find . -maxdepth 1 -iname "*.sln" | head -1`
