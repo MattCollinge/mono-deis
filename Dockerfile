@@ -1,6 +1,7 @@
 FROM ubuntu:12.04
 MAINTAINER mattcollinge
 
+ADD ./app /owin
 RUN apt-get -q update
 RUN apt-get -y -q install wget
 RUN wget -q http://download.opensuse.org/repositories/home:tpokorra:mono/xUbuntu_12.04/Release.key -O- | apt-key add -
@@ -14,7 +15,7 @@ RUN mozroots --import --sync --machine
 ENV PATH /opt/mono/bin:${PATH}
 ENV LD_LIBRARY_PATH /opt/mono/lib:${LD_LIBRARY_PATH}
 
-ADD ./app /owin
+
 
 WORKDIR /owin
 
