@@ -1,9 +1,6 @@
 FROM ubuntu:12.04
 MAINTAINER mattcollinge
 
-
-
-RUN mozroots --import --sync --machine
 ENV PATH /opt/mono/bin:${PATH}
 ENV LD_LIBRARY_PATH /opt/mono/lib:${LD_LIBRARY_PATH}
 
@@ -15,6 +12,8 @@ RUN sh -c "echo 'deb http://download.opensuse.org/repositories/home:/tpokorra:/m
 RUN apt-get -q update
 RUN apt-get -y -q install mono-opt 
 RUN apt-get -y -q install mono-devel
+
+RUN mozroots --import --sync --machine
 
 ADD ./app /owin
 
