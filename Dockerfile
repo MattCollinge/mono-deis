@@ -24,5 +24,5 @@ RUN EnableNuGetPackageRestore=true xbuild /property:Configuration=Release /prope
 
 EXPOSE 5000
 
-CMD mono ./KatanaTest.exe
+CMD mono /owin/KatanaTest/KatanaTest.exe
 # `find . -maxdepth 3 -iname "*.exe" | head -1`
