@@ -20,9 +20,9 @@ WORKDIR /owin
 ADD ./app /owin
 
 RUN EnableNuGetPackageRestore=true xbuild /property:Configuration=Release /property:OutDir=./ /owin/KatanaTest.sln
-# `find . -maxdepth 1 -iname "*.sln" | head -1`
+# `find . -maxdepth 1 -iname "*.sln" | head -1` 
+# `find . -maxdepth 3 -iname "*.exe" | head -1`
 
 EXPOSE 5000
 
 CMD mono /owin/KatanaTest/KatanaTest.exe
-# `find . -maxdepth 3 -iname "*.exe" | head -1`
